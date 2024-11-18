@@ -23,6 +23,7 @@ public abstract class SistemaClimatizacion implements ClimatizacionBase {
     @Override
     public void modoAutomatico(int temperaturaExterna) {
         if (estado) {
+            // Lógica para ajustar automáticamente según la temperatura externa
         }
     }
 }
